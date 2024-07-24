@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReservationRegDataClientApplication {
 
 	public static void main(String[] args) {
+		System.out.println("This is Client-RegisterData");
 		SpringApplication.run(ReservationRegDataClientApplication.class, args);
 	}
 
